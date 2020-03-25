@@ -9,6 +9,7 @@ module.exports = {
   coverageDirectory: 'coverage',
   testEnvironment: 'node',
   transform: {
-    '\\.js$': '<rootDir>/node_modules/babel-jest'
-  }
+    '.+\\ts$': '<rootDir>/node_modules/babel-jest'
+  },
+  preset: 'ts-jest'
 }
