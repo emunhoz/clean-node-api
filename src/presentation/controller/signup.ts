@@ -1,5 +1,7 @@
+import { HttpResponse, HttpRequest } from '../protocols/https'
+
 export class SignUpController {
-  handle (httpRequest: any): any {
+  handle (httpRequest: HttpResponse): HttpRequest {
     const handleName: any = {
       statusCode: 400,
       body: new Error('Missing error param: name')
