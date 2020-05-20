@@ -20,7 +20,9 @@
     "jest": "^25.1.0",
     "lint-staged": "^10.0.9",
     "ts-jest": "^25.2.1",
-    "typescript": "^3.8.3",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
     "validator": "^13.0.0"
   },
   "scripts": {
